@@ -14,7 +14,7 @@
 	</include>
 
 	<resources>
-		<resource name="font" type="font" filename="RobotoCondensed-Regular.ttf" size="13" fallback="Roboto-Condensed-14" />
+		<resource name="font" type="font" filename="RobotoCondensed-Regular.ttf" size="12" fallback="Roboto-Condensed-12" />
 		<resource name="mediumfont" type="font" filename="RobotoCondensed-Regular.ttf" size="12" fallback="Roboto-Condensed-12" />
 		<resource name="filelist" type="font" filename="RobotoCondensed-Regular.ttf" size="12" fallback="Roboto-Condensed-12" />
 		<resource name="top_bar" type="image" filename="top-bar.jpg" />
@@ -74,7 +74,7 @@
 		<variable name="row11_text_y" value="242" />
 		<variable name="row12_text_y" value="284" />
 		<variable name="row13_text_y" value="304" />
-		<variable name="zip_status_y" value="300" />
+		<variable name="zip_status_y" value="304" />
 		<variable name="tz_selected_y" value="60" />
 		<variable name="col_progressbar_x" value="25" />
 		<variable name="row_progressbar_y" value="288" />
@@ -103,13 +103,13 @@
 		<variable name="back_button_x" value="209" />
 		<variable name="back_button_y" value="302" />
 		<variable name="sort_text_x" value="8" />
-		<variable name="sort_asc_text_y" value="232" />
-		<variable name="sort_asc_button_y" value="230" />
-		<variable name="sort_desc_text_y" value="262" />
-		<variable name="sort_desc_button_y" value="270" />
-		<variable name="sort_col1_button_x" value="120" />
-		<variable name="sort_col2_button_x" value="160" />
-		<variable name="sort_col3_button_x" value="200" />
+		<variable name="sort_asc_text_y" value="250" />
+		<variable name="sort_asc_button_y" value="249" />
+		<variable name="sort_desc_text_y" value="275" />
+		<variable name="sort_desc_button_y" value="274" />
+		<variable name="sort_col1_button_x" value="109" />
+		<variable name="sort_col2_button_x" value="154" />
+		<variable name="sort_col3_button_x" value="199" />
 		<variable name="input_width" value="228" />
 		<variable name="input_width_conf" value="10" />
 		<variable name="input_height" value="18" />
@@ -124,13 +124,13 @@
 		<variable name="highlight" value="#33B5E5" />
 		<variable name="console_background" value="#303030" />
 		<variable name="console_scroll" value="#303030" />
-		<variable name="console_action_height" value="160" />
-		<variable name="console_install_height" value="160" />
-		<variable name="console_installdone_height" value="160" />
+		<variable name="console_action_height" value="234" />
+		<variable name="console_install_height" value="188" />
+		<variable name="console_installdone_height" value="208" />
 		<variable name="fileselector_x" value="0" />
-		<variable name="fileselector_y" value="44" />
+		<variable name="fileselector_y" value="47" />
 		<variable name="fileselector_width" value="240" />
-		<variable name="fileselector_install_height" value="182" />
+		<variable name="fileselector_install_height" value="198" />
 		<variable name="fileselector_header_background" value="#202020" />
 		<variable name="fileselector_header_textcolor" value="#AAAAAA" />
 		<variable name="fileselector_header_separatorcolor" value="#33B5E5" />
@@ -140,17 +140,17 @@
 		<variable name="fileselector_background" value="#303030" />
 		<variable name="fileselector_highlight_color" value="#505050" />
 		<variable name="fileselector_highlight_font_color" value="#33B5E5" />
-		<variable name="fileselector_spacing" value="12" />
+		<variable name="fileselector_spacing" value="10" />
 		<variable name="fastscroll_linecolor" value="#808080" />
 		<variable name="fastscroll_rectcolor" value="#808080" />
-		<variable name="fastscroll_w" value="32" />
+		<variable name="fastscroll_w" value="30" />
 		<variable name="fastscroll_linew" value="1" />
-		<variable name="fastscroll_rectw" value="18" />
-		<variable name="fastscroll_recth" value="31" />
+		<variable name="fastscroll_rectw" value="16" />
+		<variable name="fastscroll_recth" value="29" />
 		<variable name="listbox_x" value="0" />
 		<variable name="listbox_width" value="240" />
 		<variable name="listbox_background" value="#303030" />
-		<variable name="listbox_spacing" value="12" />
+		<variable name="listbox_spacing" value="10" />
 		<variable name="sd_plus_x" value="174" />
 		<variable name="sdext_text_x" value="56" />
 		<variable name="sdext_text_y" value="18" />
@@ -181,14 +181,14 @@
 		<variable name="button_fill_half_height" value="22" />
 		<variable name="button_fill_quarter_height" value="22" />
 		<variable name="button_refresh_x" value="152" />
-		<variable name="backup_list_y" value="26" />
-		<variable name="backup_list_height" value="184" />
-		<variable name="backup_button_row1" value="214" />
-		<variable name="backup_button_row2" value="242" />
+		<variable name="backup_list_y" value="24" />
+		<variable name="backup_list_height" value="183" />
+		<variable name="backup_button_row1" value="211" />
+		<variable name="backup_button_row2" value="236" />
 		<variable name="mount_list_height" value="206" />
 		<variable name="mount_storage_row" value="214" />
 		<variable name="storage_list_height" value="134" />
-		<variable name="wipe_list_height" value="216" />
+		<variable name="wipe_list_height" value="232" />
 		<variable name="wipe_button_y" value="170" />
 		<variable name="slidervalue_w" value="228" />
 		<variable name="slidervalue_line_clr" value="#FFFFFF" />
@@ -197,7 +197,7 @@
 		<variable name="slidervalue_padding" value="8" />
 		<variable name="slidervalue_sliderw" value="4" />
 		<variable name="slidervalue_sliderh" value="20" />
-		<variable name="wipe_button_row1" value="230" />
+		<variable name="wipe_button_row1" value="236" />
 		<variable name="invalid_partition_y" value="218" />
 	</variables>
 
@@ -305,7 +305,7 @@
 
 		<template name="action_page_console">
 			<object type="console">
-				<placement x="%console_x%" y="%row2_y%" w="%console_width%" h="%console_action_height%" />
+				<placement x="%console_x%" y="%row2_text_y%" w="%console_width%" h="%console_action_height%" />
 				<color foreground="%console_foreground%" background="%console_background%" scroll="%console_scroll%" />
 				<font resource="fixed" />
 			</object>
@@ -321,7 +321,7 @@
 			<object type="button">
 				<placement x="%sort_col1_button_x%" y="%sort_asc_button_y%" />
 				<font resource="mediumfont" color="%button_text_color%" />
-				<text>Name</text>
+				<text>  Name</text>
 				<image resource="sort_button" />
 				<action function="set">tw_gui_sort_order=1</action>
 			</object>
@@ -337,7 +337,7 @@
 			<object type="button">
 				<placement x="%sort_col3_button_x%" y="%sort_asc_button_y%" />
 				<font resource="mediumfont" color="%button_text_color%" />
-				<text>Size</text>
+				<text>Size </text>
 				<image resource="sort_button" />
 				<action function="set">tw_gui_sort_order=3</action>
 			</object>
@@ -351,7 +351,7 @@
 			<object type="button">
 				<placement x="%sort_col1_button_x%" y="%sort_desc_button_y%" />
 				<font resource="mediumfont" color="%button_text_color%" />
-				<text>Name</text>
+				<text>  Name</text>
 				<image resource="sort_button" />
 				<action function="set">tw_gui_sort_order=-1</action>
 			</object>
@@ -367,7 +367,7 @@
 			<object type="button">
 				<placement x="%sort_col3_button_x%" y="%sort_desc_button_y%" />
 				<font resource="mediumfont" color="%button_text_color%" />
-				<text>Size</text>
+				<text>Size </text>
 				<image resource="sort_button" />
 				<action function="set">tw_gui_sort_order=-3</action>
 			</object>
@@ -376,7 +376,7 @@
 		<template name="footer">
 			<object type="console">
 				<slideout resource="slideout" x="98" y="299" />
-				<placement x="%console_x%" y="0" w="%console_width%" h="288" />
+				<placement x="%console_x%" y="0" w="%console_width%" h="295" />
 				<color foreground="%console_foreground%" background="%console_background%" scroll="%console_scroll%" />
 				<font resource="fixed" />
 			</object>
