@@ -143,7 +143,7 @@
 		<variable name="fileselector_spacing" value="10" />
 		<variable name="fastscroll_linecolor" value="#808080" />
 		<variable name="fastscroll_rectcolor" value="#808080" />
-		<variable name="fastscroll_w" value="30" />
+		<variable name="fastscroll_w" value="24" />
 		<variable name="fastscroll_linew" value="1" />
 		<variable name="fastscroll_rectw" value="16" />
 		<variable name="fastscroll_recth" value="29" />
@@ -166,10 +166,10 @@
 		<variable name="terminal_console_height" value="71" />
 		<variable name="terminal_text_y" value="128" />
 		<variable name="terminal_button_y" value="300" />
-		<variable name="listbox_tz_height" value="159" />
-		<variable name="row_dst_text_y" value="162" />
-		<variable name="row_offset_text_y" value="184" />
-		<variable name="row_offset_medium_y" value="206" />
+		<variable name="listbox_tz_height" value="173" />
+		<variable name="row_dst_text_y" value="176" />
+		<variable name="row_offset_text_y" value="198" />
+		<variable name="row_offset_medium_y" value="220" />
 		<variable name="tz_set_y" value="271" />
 		<variable name="tz_current_y" value="249" />
 		<variable name="button_fill_color" value="#303030" />
@@ -185,9 +185,11 @@
 		<variable name="backup_list_height" value="183" />
 		<variable name="backup_button_row1" value="211" />
 		<variable name="backup_button_row2" value="236" />
+		<variable name="restore_list_y" value="30" />
+		<variable name="restore_list_height" value="209" />
 		<variable name="mount_list_height" value="206" />
 		<variable name="mount_storage_row" value="214" />
-		<variable name="storage_list_height" value="134" />
+		<variable name="storage_list_height" value="230" />
 		<variable name="wipe_list_height" value="232" />
 		<variable name="wipe_button_y" value="170" />
 		<variable name="slidervalue_w" value="228" />
