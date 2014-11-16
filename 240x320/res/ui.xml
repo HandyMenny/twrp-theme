@@ -3,7 +3,7 @@
 <recovery>
 	<details>
 		<resolution width="240" height="320" />
-		<author>TeamWin</author>
+		<author>AndroidArmv6 Team</author>
 		<title>Backup Naowz</title>
 		<description>Default basic theme</description>
 		<preview>preview.jpg</preview>
@@ -131,6 +131,7 @@
 		<variable name="fileselector_y" value="47" />
 		<variable name="fileselector_width" value="240" />
 		<variable name="fileselector_install_height" value="198" />
+		<variable name="filemanager_install_height" value="218" />
 		<variable name="fileselector_header_background" value="#202020" />
 		<variable name="fileselector_header_textcolor" value="#AAAAAA" />
 		<variable name="fileselector_header_separatorcolor" value="#33B5E5" />
@@ -152,11 +153,11 @@
 		<variable name="listbox_background" value="#303030" />
 		<variable name="listbox_spacing" value="10" />
 		<variable name="sd_plus_x" value="174" />
-		<variable name="sdext_text_x" value="56" />
-		<variable name="sdext_text_y" value="18" />
+		<variable name="sdext_text_x" value="74" />
+		<variable name="sdext_text_y" value="32" />
 		<variable name="sdswap_button_y" value="65" />
-		<variable name="sdswap_text_x" value="56" />
-		<variable name="sdswap_text_y" value="47" />
+		<variable name="sdswap_text_x" value="74" />
+		<variable name="sdswap_text_y" value="67" />
 		<variable name="sdfilesystem_text_y" value="92" />
 		<variable name="sdfilesystem_button_y" value="120" />
 		<variable name="lock_x" value="30" />
@@ -224,19 +225,11 @@
 			</object>
 
 			<object type="text" color="%text_color%">
-				<condition var1="tw_military_time" var2="0" />
 				<font resource="font" />
-				<placement x="96" y="3" />	
+				<placement x="%center_x%" y="3" placement="5" />	
 				<text>%tw_time%</text>
 			</object>
 				
-			<object type="text" color="%text_color%">
-				<condition var1="tw_military_time" var2="1" />
-				<font resource="font" />
-				<placement x="107" y="3" />	
-				<text>%tw_time%</text>
-			</object>
-
 			<object type="text" color="%text_color%">
 				<font resource="font" />
 				<placement x="236" y="3" placement="1" />
@@ -250,7 +243,7 @@
 
 			<object type="text" color="%text_color%">
 				<font resource="font" />
-				<placement x="162" y="3" />
+				<placement x="170" y="3" placement="5"/>
 				<conditions>
 					<condition var1="tw_no_cpu_temp" var2="0" />
 				</conditions>
