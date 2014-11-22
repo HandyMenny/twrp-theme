@@ -3,7 +3,7 @@
 <recovery>
 	<details>
 		<resolution width="240" height="320" />
-		<author>AndroidArmv6 Team</author>
+		<author>TeamWin</author>
 		<title>Backup Naowz</title>
 		<description>Default basic theme</description>
 		<preview>preview.jpg</preview>
@@ -51,15 +51,15 @@
 		<variable name="col_center_x" value="62" />
 		<variable name="col_center_medium_x" value="122" />
 		<variable name="center_x" value="120" />
-		<variable name="row1_home_y" value="50" />
-		<variable name="row2_home_y" value="110" />
+		<variable name="row1_home_y" value="36" />
+		<variable name="row2_home_y" value="103" />
 		<variable name="row3_home_y" value="170" />
-		<variable name="row4_home_y" value="230" />
+		<variable name="row4_home_y" value="237" />
 		<variable name="row1_y" value="30" />
 		<variable name="row2_y" value="100" />
 		<variable name="row3_y" value="170" />
 		<variable name="row4_y" value="240" />
-		<variable name="row_queue_y" value="184" />
+		<variable name="row_queue_y" value="168" />
 		<variable name="row1_header_y" value="0" />
 		<variable name="row1_text_y" value="22" />
 		<variable name="row2_text_y" value="44" />
@@ -75,7 +75,6 @@
 		<variable name="row12_text_y" value="284" />
 		<variable name="row13_text_y" value="304" />
 		<variable name="zip_status_y" value="304" />
-		<variable name="tz_selected_y" value="60" />
 		<variable name="col_progressbar_x" value="25" />
 		<variable name="row_progressbar_y" value="288" />
 		<variable name="col1_medium_x" value="6" />
@@ -164,15 +163,15 @@
 		<variable name="lock_y" value="60" />
 		<variable name="filemanager_select_x" value="98" />
 		<variable name="filemanager_select_y" value="296" />
-		<variable name="terminal_console_height" value="71" />
-		<variable name="terminal_text_y" value="128" />
+		<variable name="terminal_console_height" value="127" />
+		<variable name="terminal_text_y" value="132" />
 		<variable name="terminal_button_y" value="300" />
-		<variable name="listbox_tz_height" value="173" />
-		<variable name="row_dst_text_y" value="176" />
-		<variable name="row_offset_text_y" value="198" />
-		<variable name="row_offset_medium_y" value="220" />
-		<variable name="tz_set_y" value="271" />
-		<variable name="tz_current_y" value="249" />
+		<variable name="listbox_tz_height" value="171" />
+		<variable name="row_dst_text_y" value="174" />
+		<variable name="row_offset_text_y" value="196" />
+		<variable name="row_offset_medium_y" value="218" />
+		<variable name="tz_set_y" value="268" />
+		<variable name="tz_current_y" value="246" />
 		<variable name="button_fill_color" value="#303030" />
 		<variable name="button_fill_full_width" value="228" />
 		<variable name="button_fill_main_width" value="110" />
@@ -220,7 +219,7 @@
 			<object type="text" color="%text_fail_color%">
 				<condition var1="tw_simulate_actions" var2="1" />
 				<font resource="font" />
-				<placement x="3" y="21" />
+				<placement x="3" y="20" />
 				<text>SIMULATION</text>
 			</object>
 
