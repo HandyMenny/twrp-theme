@@ -226,8 +226,8 @@
 
 			<object type="text" color="%text_color%">
 				<font resource="font" />
-				<placement x="%center_x%" y="%slider_text_y%" placement="4" />
-				<text>       Swipe to Confirm Flash</text>
+				<placement x="%slider_long_text_x%" y="%slider_text_y%" placement="4" />
+				<text>Swipe to Confirm Flash</text>
 			</object>
 
 			<object type="button">
@@ -741,7 +741,7 @@
 
 			<object type="text" color="%text_color%">
 				<font resource="font" />
-				<placement x="%center_x%" y="%slider_text_y%" placement="4" />
+				<placement x="%slider_long_text_x%" y="%slider_text_y%" placement="4" />
 				<text>Swipe to Factory Reset</text>
 			</object>
 
@@ -3819,7 +3819,7 @@
 
 			<object type="text" color="%text_color%">
 				<font resource="font" />
-				<placement x="%center_x%" y="%slider_text_y%" placement="4" />
+				<placement x="%slider_long_text_x%" y="%slider_text_y%" placement="4" />
 				<text>Swipe to Start Sideload</text>
 			</object>
 

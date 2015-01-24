@@ -90,6 +90,7 @@
 		<variable name="row7_medium_y" value="120" />
 		<variable name="slider_x" value="34" />
 		<variable name="slider_y" value="262" />
+		<variable name="slider_long_text_x" value="135" />
 		<variable name="slider_text_y" value="281" />
 		<variable name="button_text_color" value="#AAAAAA" />
 		<variable name="text_color" value="#FFFFFF" />
@@ -110,7 +111,6 @@
 		<variable name="sort_col2_button_x" value="154" />
 		<variable name="sort_col3_button_x" value="199" />
 		<variable name="input_width" value="228" />
-		<variable name="input_width_conf" value="10" />
 		<variable name="input_height" value="18" />
 		<variable name="input_background_color" value="#303030" />
 		<variable name="input_cursor_color" value="#33B5E5" />
@@ -140,7 +140,7 @@
 		<variable name="fileselector_background" value="#303030" />
 		<variable name="fileselector_highlight_color" value="#505050" />
 		<variable name="fileselector_highlight_font_color" value="#33B5E5" />
-		<variable name="fileselector_spacing" value="10" />
+		<variable name="fileselector_spacing" value="11" />
 		<variable name="fastscroll_linecolor" value="#808080" />
 		<variable name="fastscroll_rectcolor" value="#808080" />
 		<variable name="fastscroll_w" value="24" />
@@ -150,7 +150,7 @@
 		<variable name="listbox_x" value="0" />
 		<variable name="listbox_width" value="240" />
 		<variable name="listbox_background" value="#303030" />
-		<variable name="listbox_spacing" value="10" />
+		<variable name="listbox_spacing" value="11" />
 		<variable name="sd_plus_x" value="174" />
 		<variable name="sdext_text_x" value="74" />
 		<variable name="sdext_text_y" value="32" />
@@ -175,12 +175,9 @@
 		<variable name="button_fill_color" value="#303030" />
 		<variable name="button_fill_full_width" value="228" />
 		<variable name="button_fill_main_width" value="110" />
-		<variable name="button_fill_med_width" value="72" />
-		<variable name="button_fill_small_width" value="24" />
 		<variable name="button_fill_main_height" value="44" />
 		<variable name="button_fill_half_height" value="22" />
 		<variable name="button_fill_quarter_height" value="22" />
-		<variable name="button_refresh_x" value="152" />
 		<variable name="backup_list_y" value="24" />
 		<variable name="backup_list_height" value="183" />
 		<variable name="backup_button_row1" value="211" />
@@ -225,10 +222,10 @@
 
 			<object type="text" color="%text_color%">
 				<font resource="font" />
-				<placement x="%center_x%" y="3" placement="5" />	
+				<placement x="%center_x%" y="3" placement="5" />
 				<text>%tw_time%</text>
 			</object>
-				
+
 			<object type="text" color="%text_color%">
 				<font resource="font" />
 				<placement x="236" y="3" placement="1" />
